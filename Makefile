@@ -239,11 +239,10 @@ else
 endif
 
 docs-tools:
-ifeq (, $(shell which yarn))
 	@echo "Installing yarn..."
 	@npm install -g yarn
-else
-	@echo "yarn already installed; skipping..."
+	yarn set version 1.22.13
+	@echo "Set yarn version..."
 endif
 
 tools: tools-stamp
