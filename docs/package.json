@@ -28,8 +28,6 @@
     "markdown-it-katex": "^2.0.3",
     "node-sass": "npm:sass@*",
     "vuepress-theme-cosmos": "^1.0.183"
-    // "@vue/server-renderer": "^3.0.11",
-    // "@vue/compiler-sfc": "^3.0.11"
   },
   "devDependencies": {
     "vuepress-plugin-element-tabs": "^0.2.8",
