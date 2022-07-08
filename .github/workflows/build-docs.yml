@@ -17,13 +17,13 @@ jobs:
         with:
           persist-credentials: false
           fetch-depth: 0
-      # - uses: technote-space/get-diff-action@v6.1.0
-      #   with:
-      #     PATTERNS: |
-      #       docs/**/*.md
-      #       x/**/*.md
+      - uses: technote-space/get-diff-action@v6.1.0
+        with:
+          PATTERNS: |
+            docs/**/*.md
+            x/**/*.md
       - name: Install dependencies and build docs 🧱
         run: |
           make build-docs
         # Check only if there are differences in the source code
-        # if: env.GIT_DIFF
+        if: env.GIT_DIFF
