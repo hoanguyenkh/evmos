@@ -299,7 +299,7 @@ build-docs:
 	@$(MAKE) docs-tools-stamp && \
 	cd docs && \
 	yarn && \
-	@npm list vue && \
+	npm list vue && \
 	yarn run build
 
 # This builds a docs site for each branch/tag in `./docs/versions`
