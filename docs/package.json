@@ -36,6 +36,7 @@
   "resolutions": {
     "serialize-javascript": "^4.0.0",
     "**/node-sass": "npm:sass@*",
-    "vue": "^1.5.4"
+    "vuepress": "^1.5.4",
+    "vue": "2.7.4"
   }
 }
