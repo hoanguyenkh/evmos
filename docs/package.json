@@ -35,6 +35,7 @@
   },
   "resolutions": {
     "serialize-javascript": "^4.0.0",
-    "**/node-sass": "npm:sass@*"
+    "**/node-sass": "npm:sass@*",
+    "vue": "^1.5.4"
   }
 }
