@@ -298,8 +298,9 @@ docs-serve:
 build-docs:
 	@$(MAKE) docs-tools-stamp && \
 	cd docs && \
-	yarn && \
+	yarn --ignore-engines && \
 	npm list vue && \
+	yarn list && \
 	yarn run build
 
 # This builds a docs site for each branch/tag in `./docs/versions`
